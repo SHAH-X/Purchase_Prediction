@@ -9,6 +9,6 @@ Predictive Analytics
 
 * Data Pre-processing : The data was checked for collinearity and cleaned after performing outlier analysis. Label encoding and one-hot encoding techniques were used to convert categorical data to numerical data. The values were standardized before using it with models. Applied feature engineering to identify most important features using decision tree. The most important features were used for model training.
 
-* Model Evaluation : Confusion matrix was used to evaluate the performance of various models. The model with highest 'Precision' was selected, as required for the business objective.
+* Model Evaluation : Confusion matrix was used to evaluate the performance metrics (accuracy, precision, sensitivity, specificity) of all the models. The model with highest 'Precision' was selected, as required for the business objective.
 
 * Result : Random Forest Model performed the best out of all models. The model was then trained and deployed for use. The model performed on actual test set with an accuracy of 83.5%.
